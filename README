@@ -1,0 +1,44 @@
+# What is R?
+Scripting language
+Statistical programming language
+4th most popular programming language (IEEE)
+Large community #rstats
+Advantages:
+Open source
+Lots of packages (libraries written by users)
+Used by lots of statsy people...but then need to communicate stats to non-technical stakeholders, business analysts...
+
+# Shiny
+… is a package released in 2012
+"Makes it incredibly easy to build interactive web applications with R. Automatic "reactive" binding between inputs and outputs and extensive pre-built widgets make it possible to build beautiful, responsive, and powerful applications with minimal effort."
+
+# This talk
+Have a look at a few shiny apps
+convince you how easy it is to build shiny applications
+because we are going to build one today!
+
+# Some shiny apps
+lots of examples in shiny.rstudio.com/gallery/
+http://shiny.rstudio.com/gallery/bus-dashboard.html
+
+# Now to build our own
+RStudio
+Template
+2 files
+fluidLayout
+ui.R used to generate html
+server is where computation lives
+runApp
+
+# Live coding
+fluidRow
+selectInput
+how to access input values from server
+reactive values (render* functions)
+how to access server values in ui
+*output functions
+
+# Finally
+CSS files
+shinyThemes
+
